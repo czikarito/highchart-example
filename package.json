@@ -45,6 +45,7 @@
     "eslint-plugin-ember": "^5.2.0",
     "gulp": "^4.0.2",
     "gulp-conventional-changelog": "^2.0.26",
+    "gulp-image-resize": "^0.13.1",
     "highcharts": "^7.2.1",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.0"
