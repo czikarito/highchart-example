@@ -1,6 +1,6 @@
 {
   "name": "highchart-example",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Small description for highchart-example goes here",
   "repository": "",
@@ -43,6 +43,8 @@
     "ember-source": "~3.8.0-beta.1",
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^5.2.0",
+    "gulp": "^4.0.2",
+    "gulp-conventional-changelog": "^2.0.26",
     "highcharts": "^7.2.1",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.0"
