@@ -1,0 +1,30 @@
+{{input placeholder="Title" value=title onChange=(action (mut title))}}
+{{input placeholder="Calories" type="number" value=calories onChange=(action (mut calories))}}
+
+
+<button onClick={{action "add"}}>Submit</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Calories</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each model as |recipe|}}
+      <tr>
+        <td>
+          {{recipe.title}}
+
+        </td>
+        <td>
+          {{recipe.calories}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+
+
